@@ -2,7 +2,7 @@
 
 [Home](README.md) · [Conditional standards](CONDITIONAL-STANDARDS.md)
 
-**Status:** Seeded rules for review. These consolidate existing requests; their exact cross-project scope is not yet ratified. “Universal” means a shared principle wherever applicable—not identical features in every product.
+**Status:** U-09 is approved by William McAda on 2026-09-29. U-01–U-08 remain seeded rules for review. These consolidate existing requests; their exact cross-project scope is not yet ratified. “Universal” means a shared principle wherever applicable—not identical features in every product.
 
 ## U-01 — Identify the product and delivered version
 
@@ -81,6 +81,20 @@
 **Examples of rules that must remain local:** AAC's form-overlap restrictions and item counts; a particular benchmark's scoring; music expectations; retry counts; LogicForge's suspect mechanics; a game's ending thresholds; single-file/offline requirements.
 
 **Basis:** Explicit limits on generalizing AAC rules and the different needs of the product family.
+
+## U-09 — Let users delete saved work and start fresh
+
+**Status:** Approved by William McAda on 2026-09-29 (Asia/Shanghai).
+
+**Rule:** Every project that stores user-created work or progress must provide visible, ordinary controls to delete individual saved records, delete a complete grouping where one exists (such as a school year, class, assessment set or campaign), and clear all saved work in the applicable user/workspace scope. Users must not need developer tools, raw storage editing, or repeated item-by-item deletion to remove a group.
+
+**Behavior:** Before destructive deletion, identify the affected scope and record count, explain what is removed, provide Cancel, and require explicit confirmation. Offer an export/backup or recoverable undo where feasible; explain any recovery limit. Deleting a group must include its associated saved content, reviews, history and generated records without orphaning them. Preserve unrelated work, shared source content, fixed blueprints and previously downloaded files unless separately and explicitly selected.
+
+**Check:** Verify cancellation, group deletion, clear-all, persistence after reload, appropriate selection/empty-state updates, ability to create new work afterward, and backup/undo recovery when offered. Test that failures do not claim success and that unrelated groups remain intact.
+
+**Scope:** Applies going forward to new projects and revisions of existing projects with saved state, using each project's own terminology. For projects with no saved state, record Not applicable. Respect user/workspace permissions in shared systems. This rule does not authorize deleting actual user data during development or imply that every existing application has already been updated.
+
+**Basis:** Owner request in Benchmark Studio: “Going forward I want this as a universal rule in Github - every project should have the ability to do this.”
 
 ## What is not automatically universal
 

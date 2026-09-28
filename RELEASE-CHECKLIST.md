@@ -25,6 +25,7 @@ Test environment: [Browser/device/network where relevant]
 | Requested changes are present and must-retain features remain. | U-06 | Not run | |
 | The affected end-to-end workflow has been checked. | U-07 | Not run | |
 | Local restrictions were not misapplied to unrelated features. | U-08 | Not run | |
+| Saved-work controls support individual/group deletion and clear-all, with confirmation, cancellation, recovery guidance, reload persistence and fresh creation; unrelated work is preserved. | U-09 (approved) | Not run | |
 | Valid/malformed/stale generation responses behave according to the contract. | S-01 | Not run | |
 | Assessment construct, response/scoring format, and selected overlap rules are satisfied. | S-02 | Not run | |
 | Success, failure, retry, hint, and reward paths behave as specified. | S-03 | Not run | |

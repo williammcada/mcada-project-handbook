@@ -1,6 +1,6 @@
 # William McAda — Project Handbook
 
-**Version:** v0.1.0 · **Date:** 2026-09-17 · **Status:** Review draft
+**Version:** v0.1.1 · **Date:** 2026-09-29 · **Status:** U-09 approved; earlier seeded rules remain review drafts
 
 A shared reference for the rules, vocabulary, and decisions that should carry between projects. This is not another application, a source-code repository for the games, or an archive of every conversation.
 
@@ -49,3 +49,7 @@ Obsidian is an optional local reading/editing interface: open the extracted fold
 ## Keep the process small
 
 Start with one active project. Do not import all historic chats. Bring forward decisions, constraints, recurring failure modes, and current facts. Add more project briefs only when needed. The goal is less repeated explanation, not another administration job.
+
+## Approved saved-work management rule
+
+[U-09](UNIVERSAL-RULES.md#u-09--let-users-delete-saved-work-and-start-fresh) requires individual/group deletion and clear-all controls in projects with saved work. Approved by Will on 2026-09-29; see the decisions log. Existing applications still need implementation when revised. Older v0.1.0 combined snapshots predate this rule; use these canonical pages.

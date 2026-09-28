@@ -56,3 +56,7 @@ Approval: [Pending until explicitly accepted]
 The final scope/wording of the universal baseline; which project will trial it first; whether GitHub is selected as the canonical home; and whether a later automated handoff/export workflow is worth adding.
 
 A proposed shared evidence schema, automatic synchronization, and integration rewrites are deliberately out of scope for this starter.
+
+## Approved amendment — U-09 (2026-09-29)
+
+William McAda explicitly requested school-year deletion and clearing saved benchmarks, and instructed that this become a universal GitHub rule for every project going forward. U-09 in UNIVERSAL-RULES.md is approved; the prior seeded rules retain their original status. Added corresponding project-template and release-checklist entries. No conflict with U-06: deliberate owner-confirmed deletion is distinct from accidental feature/data loss. Benchmark Studio v0.3.1 implements the rule; other existing applications have not been modified by this amendment. GitHub remains the canonical handbook; older downloaded snapshots are historical exports.

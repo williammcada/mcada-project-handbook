@@ -30,6 +30,10 @@ Proposals adopted for this task: [Explicit choices only; otherwise none.]
 
 [Devices/input; offline/network needs; mathematical content and response formats; visual identity; music; retries; outputs; save behavior; deployment path; service-cost constraints.]
 
+## Saved-work management (approved U-09)
+
+[Saved record types and groupings; individual/group/clear-all controls; scope/permissions; confirmation and cancellation; backup/undo and recovery limits; reload and failure behavior. If no saved state, explain why Not applicable.]
+
 ## Preserve from the current release
 
 [Existing features, assets, settings, content, and behavior that must not disappear.]
