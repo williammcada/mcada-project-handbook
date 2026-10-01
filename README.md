@@ -1,6 +1,6 @@
 # William McAda — Project Handbook
 
-**Version:** v0.1.2 · **Date:** 2026-10-01 · **Status:** U-09 and U-10 approved; earlier seeded rules remain review drafts
+**Version:** v0.1.3 · **Date:** 2026-10-01 · **Status:** U-09 and U-10 approved; earlier seeded rules remain review drafts
 
 A shared reference for the rules, vocabulary, and decisions that should carry between projects. This is not another application, a source-code repository for the games, or an archive of every conversation.
 
@@ -61,3 +61,7 @@ Start with one active project. Do not import all historic chats. Bring forward d
 ## iPhone control reinforcement and MathQuest timing
 
 The 2026-10-01 [U-10 amendment](UNIVERSAL-RULES.md#u-10--prevent-stuck-controls-and-verify-touch-release) also covers native text-selection/callout menus and one tested input mechanism across each codebase. [S-03-A](CONDITIONAL-STANDARDS.md#s-03-a--mathquest-action-minigame-timing) records the approved five-minute MathQuest action default. These are requirements for implementation and verification, not claims that all older games already comply.
+
+## Explicit mobile gameplay checks — v0.1.3
+
+[U-10](UNIVERSAL-RULES.md#u-10--prevent-stuck-controls-and-verify-touch-release) now specifies three recurring concerns separately: stuck input, unintended browser zoom/layout movement, and native selection/context menus. The project template and release checklist carry these checks forward, including rotation, browser bars, software keyboards and physical-device evidence. These are universal requirements where applicable; saving them does not certify or repair existing games.

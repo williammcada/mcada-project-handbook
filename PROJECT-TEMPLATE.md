@@ -34,6 +34,10 @@ Proposals adopted for this task: [Explicit choices only; otherwise none.]
 
 [Saved record types and groupings; individual/group/clear-all controls; scope/permissions; confirmation and cancellation; backup/undo and recovery limits; reload and failure behavior. If no saved state, explain why Not applicable.]
 
+## Gameplay input and viewport reliability (approved U-10)
+
+[Supported devices/browsers/orientations and delivery methods; shared input implementation/source revision where applicable; release/cancellation and interruption handling; native selection/callout/context-menu protection; stable viewport and math/settings keyboard behavior; separate regression evidence for stuck controls, unintended zoom/layout movement and native menus. Identify physical-device checks still Not run. If no gameplay or held controls, explain why Not applicable.]
+
 ## Preserve from the current release
 
 [Existing features, assets, settings, content, and behavior that must not disappear.]
