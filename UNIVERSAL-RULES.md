@@ -2,7 +2,7 @@
 
 [Home](README.md) · [Conditional standards](CONDITIONAL-STANDARDS.md)
 
-**Status:** U-09 is approved by William McAda on 2026-09-29. U-01–U-08 remain seeded rules for review. These consolidate existing requests; their exact cross-project scope is not yet ratified. “Universal” means a shared principle wherever applicable—not identical features in every product.
+**Status:** U-09 is approved by William McAda on 2026-09-29. U-10 is approved on 2026-10-01. U-01–U-08 remain seeded rules for review. These consolidate existing requests; their exact cross-project scope is not yet ratified. “Universal” means a shared principle wherever applicable—not identical features in every product.
 
 ## U-01 — Identify the product and delivered version
 
@@ -95,6 +95,18 @@
 **Scope:** Applies going forward to new projects and revisions of existing projects with saved state, using each project's own terminology. For projects with no saved state, record Not applicable. Respect user/workspace permissions in shared systems. This rule does not authorize deleting actual user data during development or imply that every existing application has already been updated.
 
 **Basis:** Owner request in Benchmark Studio: “Going forward I want this as a universal rule in Github - every project should have the ability to do this.”
+
+## U-10 — Prevent stuck controls and verify touch release
+
+**Status:** Approved requirement from William McAda on 2026-10-01 (Asia/Shanghai), following a stuck D-pad during MathQuest shooter playtesting.
+
+**Rule:** For projects with touch, pointer, keyboard, or other held controls, explicitly check that movement and actions stop when input ends or is interrupted. Treat a stuck D-pad, held button or continuing action as a release-blocking control defect for the affected target device. A normal press-and-release test alone is insufficient.
+
+**Behavior:** Track each active contact separately, preserve simultaneous controls, and neutralize stale input on release/cancel, lost capture, focus loss, page hiding, device lock, relevant viewport/orientation changes, pause, death/retry and teardown. A capture failure or missed release path must not leave a held action latched. Provide a recoverable route back to neutral input without restarting or losing progress. Do not use an arbitrary short inactivity timeout that interrupts a legitimate stationary held touch.
+
+**Check:** Exercise rapid taps, diagonal slides, drag outside and release, two-finger direction-plus-action, both release orders, pointer/touch cancellation, capture failure/loss, pause/resume, background/return, lock/unlock, rotation, and repeated deaths/retries. Reproduce reported failures where possible and retain regression coverage. After every release/interruption, verify neutral control state and successful fresh input. Distinguish automated emulation from physical-device checks, and record the actual browser/device tested. Real target-device checks remain required before claiming the issue resolved there.
+
+**Scope:** Applies to new work and revisions of projects that have held controls. It does not impose a D-pad on projects that do not need one. Adding this rule does not assert that all existing applications have been audited or repaired; migrate those implementations in their own revision scopes. No conflict with U-05 or U-07: this specifies the input reliability checks they require where applicable.
 
 ## What is not automatically universal
 

@@ -1,6 +1,6 @@
 # William McAda — Project Handbook
 
-**Version:** v0.1.1 · **Date:** 2026-09-29 · **Status:** U-09 approved; earlier seeded rules remain review drafts
+**Version:** v0.1.2 · **Date:** 2026-10-01 · **Status:** U-09 and U-10 approved; earlier seeded rules remain review drafts
 
 A shared reference for the rules, vocabulary, and decisions that should carry between projects. This is not another application, a source-code repository for the games, or an archive of every conversation.
 
@@ -53,3 +53,7 @@ Start with one active project. Do not import all historic chats. Bring forward d
 ## Approved saved-work management rule
 
 [U-09](UNIVERSAL-RULES.md#u-09--let-users-delete-saved-work-and-start-fresh) requires individual/group deletion and clear-all controls in projects with saved work. Approved by Will on 2026-09-29; see the decisions log. Existing applications still need implementation when revised. Older v0.1.0 combined snapshots predate this rule; use these canonical pages.
+
+## Approved held-control reliability rule
+
+[U-10](UNIVERSAL-RULES.md#u-10--prevent-stuck-controls-and-verify-touch-release) requires explicit stuck-control regression checks, multi-touch and interruption handling, and real target-device evidence. Requested by Will on 2026-10-01. Existing applications require individual audits when revised; this amendment does not claim their controls are already fixed.

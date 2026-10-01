@@ -60,3 +60,7 @@ A proposed shared evidence schema, automatic synchronization, and integration re
 ## Approved amendment — U-09 (2026-09-29)
 
 William McAda explicitly requested school-year deletion and clearing saved benchmarks, and instructed that this become a universal GitHub rule for every project going forward. U-09 in UNIVERSAL-RULES.md is approved; the prior seeded rules retain their original status. Added corresponding project-template and release-checklist entries. No conflict with U-06: deliberate owner-confirmed deletion is distinct from accidental feature/data loss. Benchmark Studio v0.3.1 implements the rule; other existing applications have not been modified by this amendment. GitHub remains the canonical handbook; older downloaded snapshots are historical exports.
+
+## Approved amendment — U-10 (2026-10-01)
+
+William McAda reported a stuck D-pad while playing the first MathQuest side-scrolling shooter candidate and explicitly requested a universal rule to double-check touchscreen controls. U-10 records that requirement with concrete interruption, cancellation and multi-touch regression checks, including real-device evidence. Added a release-checklist row. The rule applies wherever held controls exist; it does not authorize or claim a completed migration of other applications. U-01–U-08 retain their seeded status. No conflicting rule was identified.
