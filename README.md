@@ -57,3 +57,7 @@ Start with one active project. Do not import all historic chats. Bring forward d
 ## Approved held-control reliability rule
 
 [U-10](UNIVERSAL-RULES.md#u-10--prevent-stuck-controls-and-verify-touch-release) requires explicit stuck-control regression checks, multi-touch and interruption handling, and real target-device evidence. Requested by Will on 2026-10-01. Existing applications require individual audits when revised; this amendment does not claim their controls are already fixed.
+
+## iPhone control reinforcement and MathQuest timing
+
+The 2026-10-01 [U-10 amendment](UNIVERSAL-RULES.md#u-10--prevent-stuck-controls-and-verify-touch-release) also covers native text-selection/callout menus and one tested input mechanism across each codebase. [S-03-A](CONDITIONAL-STANDARDS.md#s-03-a--mathquest-action-minigame-timing) records the approved five-minute MathQuest action default. These are requirements for implementation and verification, not claims that all older games already comply.

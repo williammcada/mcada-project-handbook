@@ -64,3 +64,9 @@ William McAda explicitly requested school-year deletion and clearing saved bench
 ## Approved amendment — U-10 (2026-10-01)
 
 William McAda reported a stuck D-pad while playing the first MathQuest side-scrolling shooter candidate and explicitly requested a universal rule to double-check touchscreen controls. U-10 records that requirement with concrete interruption, cancellation and multi-touch regression checks, including real-device evidence. Added a release-checklist row. The rule applies wherever held controls exist; it does not authorize or claim a completed migration of other applications. U-01–U-08 retain their seeded status. No conflicting rule was identified.
+
+## Approved U-10 reinforcement and MathQuest timing — 2026-10-01
+
+The owner reported recurring stuck controls in aerial practice v0.1.1 and supplied an iPhone Edge screenshot with HULL text selected and the Copy/Search/Ask Copilot/Translate/Look Up menu open. He explicitly requested these recurring issues in the universal GitHub rules. U-10 now includes the entire gameplay surface, native text-selection/callout prevention, native contact-list reconciliation, shared implementation, and hosted/standalone regression checks. This strengthens the existing approved rule rather than introducing a parallel rule. It does not claim every historical game or physical device has been repaired.
+
+The same instruction increased the aerial level from three to five active minutes, doubled its regular enemies, and increased player movement speed by 10%. S-03-A records five minutes as the MathQuest action-minigame default. Enemy quantity and movement tuning remain local to this aerial revision. Existing cartridge migrations retain explicit scope; unrelated game settings and curriculum standards are preserved.

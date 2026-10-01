@@ -55,6 +55,12 @@ Include the shared quarter-hour prerequisite: find start/end times by moving for
 
 Verify search coverage/order, hidden selection retention, ten-skill previews, draft isolation, current-gate preservation and parity in both host applications. This rule does not require identical game graphics or impose math-game settings on assessment tools.
 
+### S-03-A — MathQuest action-minigame timing
+
+**Approved by William McAda on 2026-10-01 (Asia/Shanghai).** Five minutes (300 seconds) is the default maximum active-play duration for new MathQuest action minigames and explicitly revised levels. This replaces the aerial shooter's earlier three-minute target. A level may end sooner through its specified success or failure condition. Keep teacher-controlled classroom windows, local pause, checkpoint progress, and cumulative active time explicitly distinguished. Checkpoint retries must not restore spent active time. Extend authored encounters, scenery, checkpoint placement, boss timing and all timer/timeout labels together; changing only the countdown is insufficient.
+
+This is a MathQuest design default, not a universal time limit for unrelated applications or an instruction to silently retime every historical cartridge. Existing cartridge-specific rules remain recorded until that cartridge is deliberately revised. Academic evidence and narrative outcomes remain separate from action results.
+
 ## S-04 — Distribution, deployment, and classroom operation
 
 **Applies when:** The deliverable must run locally, be uploaded to a host, or be deployed through a repository.

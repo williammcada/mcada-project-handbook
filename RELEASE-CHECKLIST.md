@@ -27,6 +27,7 @@ Test environment: [Browser/device/network where relevant]
 | Local restrictions were not misapplied to unrelated features. | U-08 | Not run | |
 | Saved-work controls support individual/group deletion and clear-all, with confirmation, cancellation, recovery guidance, reload persistence and fresh creation; unrelated work is preserved. | U-09 (approved) | Not run | |
 | Held controls return to neutral after release/cancel, capture loss/failure, multi-touch release order, focus/background/lock, rotation, pause and retry; fresh input works, and actual target-device evidence is recorded. | U-10 (approved) | Not run | |
+| Native HUD/control/world long-press selection, context menus and browser gestures are suppressed; forms and non-game content remain usable; shared input implementation and bundle parity are checked. | U-10 (approved) | Not run | |
 | Valid/malformed/stale generation responses behave according to the contract. | S-01 | Not run | |
 | Assessment construct, response/scoring format, and selected overlap rules are satisfied. | S-02 | Not run | |
 | Success, failure, retry, hint, and reward paths behave as specified. | S-03 | Not run | |
