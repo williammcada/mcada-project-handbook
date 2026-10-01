@@ -43,6 +43,18 @@
 
 **Proposed safeguard for approval:** Record what learner data is transmitted, stored, logged, retained, and deletable. Do not infer the answer merely from the hosting provider or from the absence of student accounts.
 
+### S-03-M — Synchronized math-game settings
+
+**Approved by William McAda on 2026-10-01 (Asia/Shanghai).** Applies to Olivia's Magic Bracelet Quest, Mega Man Math, and future math games. Existing other games migrate when revised; this entry does not claim they already comply.
+
+Use the same versioned math selection component, catalog, settings labels and behavior across hosts. Canonical implementation: [Olivia src/shared-math](https://github.com/williammcada/OLIVIA-MAGIC-BRACELET-QUEST/tree/main/src/shared-math); Mega Man consumes its compiled standalone bundle. Record the source revision and bundle hash in each host. Shared changes must update both current hosts together. Game-specific controls, triggers and explicitly accepted defaults remain separate.
+
+Provide a case-insensitive skill search across every grade, ordered by grade K–7 with stable catalog order within grades. Do not label CCSS code order as a difficulty or rigor ranking. Retain checked skills through search/range changes. Place Preview selected skills beside Save settings in Math practice. Preview one question per checked skill, sequentially in catalog order, regardless of gate count; ten selections means ten previews. Preview uses current draft selections without saving or changing learner evidence, progression, active gates or rewards. Return to the unchanged draft when closed. Settings changes remain next-gate scoped.
+
+Include the shared quarter-hour prerequisite: find start/end times by moving forward/backward 15, 30, 45, 60, 75, 90 or 105 minutes from quarter-hour clock times, with AM/PM and no midnight crossing. Retain harder time skills separately.
+
+Verify search coverage/order, hidden selection retention, ten-skill previews, draft isolation, current-gate preservation and parity in both host applications. This rule does not require identical game graphics or impose math-game settings on assessment tools.
+
 ## S-04 — Distribution, deployment, and classroom operation
 
 **Applies when:** The deliverable must run locally, be uploaded to a host, or be deployed through a repository.
