@@ -6,9 +6,13 @@
 
 ## U-01 — Identify the product and delivered version
 
+**Approved amendment — 2026-10-08 (Asia/Shanghai):** Every HTML file must carry a version number, updated whenever any modification is made. This versioning amendment is approved by William McAda; it does not ratify unrelated seeded rules.
+
 **Rule:** Show the product name, an accessible release version, and William McAda's product credit. The established branding phrase is **A WILLIAM MCADA PRODUCT**. Placement may suit the audience; it need not cover the active play area.
 
-**Check:** The actual application, release notes, README, and package describe the same release. A changed filename or README alone does not demonstrate that the new application was delivered.
+**HTML versioning:** Give every modified HTML artifact a new version before checkpointing or delivering it, including small content, style, script, data and packaging changes that alter its contents. Never distribute different HTML contents under the same version. Show the version visibly in the rendered page and in the document title; include it in downloadable HTML filenames. Canonical hosted entry points may remain `index.html`, but their displayed/internal version must advance. Keep application metadata and delivery notes consistent. An unchanged byte-for-byte copy retains its version. For generated HTML, update the source version and regenerate; verify the actual delivered file rather than only its template. Apply this going forward to all new or modified HTML files; this does not claim historical files have already been migrated.
+
+**Check:** Open the exact delivery artifact and confirm its visible version, title, filename (for downloads), and expected current features. Compare its content hash to the preserved candidate; do not assume a reused download link or a changed filename delivers new bytes. The actual application, release notes, README, and package describe the same release. A changed filename or README alone does not demonstrate that the new application was delivered.
 
 **Basis:** Version/credit requests across TestForge, games, and interactive curriculum projects; the stale CHRONO CIRCUIT deployment experience.
 
