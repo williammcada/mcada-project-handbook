@@ -2,7 +2,7 @@
 
 [Home](README.md) · [Conditional standards](CONDITIONAL-STANDARDS.md)
 
-**Status:** U-09 is approved by William McAda on 2026-09-29. U-10 is approved on 2026-10-01. U-01–U-08 remain seeded rules for review. These consolidate existing requests; their exact cross-project scope is not yet ratified. “Universal” means a shared principle wherever applicable—not identical features in every product.
+**Status:** U-09 is approved by William McAda on 2026-09-29. U-10 is approved on 2026-10-01. U-11 is approved on 2026-10-08. U-01–U-08 remain seeded rules for review. These consolidate existing requests; their exact cross-project scope is not yet ratified. “Universal” means a shared principle wherever applicable—not identical features in every product.
 
 ## U-01 — Identify the product and delivered version
 
@@ -119,6 +119,18 @@
 **Additional checks:** Long-press the HUD text and images as well as every control; verify no selection handles, Copy/Search/Translate menus or drag previews appear. Test native touch-list cleanup when a pointer release is missed, moving outside a pad, cancelled touches, interrupted multi-touch, opening settings/help, and neutral movement after respawn. Verify settings inputs and non-game content remain normally usable. Preserve the regression in the shared input test suite and test both the hosted and standalone delivery when both are supported. Record physical iPhone/iPad Safari/Edge results separately from synthetic events or Chromium viewport emulation.
 
 **Scope:** Applies to new work and revisions of games and other projects that have held controls. The native-browser-interference and viewport requirements apply to supported touch gameplay surfaces even where there is no D-pad or held control. It does not impose a D-pad on projects that do not need one. Adding this rule does not assert that all existing applications have been audited or repaired; migrate those implementations in their own revision scopes. No conflict with U-05 or U-07: this specifies the input reliability checks they require where applicable.
+
+## U-11 — Separate narrative from user instructions
+
+**Status:** Approved by William McAda on 2026-10-08 (Asia/Shanghai).
+
+**Rule:** Wherever a project presents story or narrative alongside student/user directions, place them in physically separate, visually distinct blocks. Keep in-world narrative, dialogue and atmosphere in the story block. Put procedural directions, controls, participation requirements, timers, scoring explanations and next actions in a separately labeled instructions block outside the narrative prose.
+
+**Presentation:** Use clear headings such as “Story” and “Your task” or “Student instructions,” visible spacing, and a distinct panel treatment or border. Do not rely on color alone, a font change inside one paragraph, or merely bolding instructions. Keep directions readable and adjacent to the relevant task on supported screen sizes; do not bury required directions in optional help. Split mixed-purpose sentences or paragraphs explicitly while preserving their meaning.
+
+**Check:** Inspect briefing, gates/tasks, decisions, preparation/upgrades, gameplay help and endings/results where applicable. Verify the separation in live student views and maintained preview/standalone versions. Narrative should not contain out-of-world operating instructions; the instruction block must retain every required action and rule.
+
+**Scope:** Applies going forward to all MathQuest cartridges and other projects that combine narrative with user instructions, including revisions. It does not require adding a story to a non-narrative product. Existing projects are compliant only after their actual views have been checked.
 
 ## What is not automatically universal
 
