@@ -23,6 +23,7 @@ Test environment: [Browser/device/network where relevant]
 | Mathematical examples and boundary cases agree with keys/scoring; rounding is explicit. | U-04 | Not run | |
 | Text/math render legibly; required controls work on target devices. | U-05 | Not run | |
 | Requested changes are present and must-retain features remain. | U-06 | Not run | |
+| Narrative and user/student instructions occupy separate labeled blocks with distinct styling and spacing; mixed prose is split without losing directions; live and maintained preview/standalone views are checked. | U-11 (approved) | Not run | |
 | The affected end-to-end workflow has been checked. | U-07 | Not run | |
 | Local restrictions were not misapplied to unrelated features. | U-08 | Not run | |
 | Saved-work controls support individual/group deletion and clear-all, with confirmation, cancellation, recovery guidance, reload persistence and fresh creation; unrelated work is preserved. | U-09 (approved) | Not run | |
